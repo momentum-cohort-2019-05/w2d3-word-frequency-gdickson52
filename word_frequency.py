@@ -17,6 +17,7 @@ for words in all_text:
     if words not in STOP_WORDS:
         word_text.append(words)
 print(word_text)
+#testing
 
 def print_word_freq(file):
     pass
