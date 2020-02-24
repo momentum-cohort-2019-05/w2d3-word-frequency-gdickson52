@@ -31,9 +31,6 @@ print("pairs\n" + str(zip(word_text, f)))
 
 
 
-
-
-
 if __name__ == "__main__":
     import argparse
     from pathlib import Path
@@ -47,5 +44,5 @@ if __name__ == "__main__":
     if file.is_file():
         print_word_freq(file)
     else:
-        print(f"{file} does not exist!")
+        print(f"{file} this does not exist!")
         exit(1)
